@@ -13,6 +13,8 @@
     "build:mac": "yarn vite:build && electron-builder --mac dmg zip"
   },
   "dependencies": {
+    "element-plus": "^2.4.2",
+    "eslint": "^8.53.0",
     "vue": "^3.3.4"
   },
   "build": {
@@ -21,7 +23,10 @@
     "copyright": "Copyright © 2021 <your-name>",
     "mac": {
       "category": "public.app-category.utilities",
-      "target": ["dmg", "zip"]
+      "target": [
+        "dmg",
+        "zip"
+      ]
     },
     "nsis": {
       "oneClick": false,
@@ -37,14 +42,20 @@
     }
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
     "@vitejs/plugin-vue": "^4.2.3",
     "concurrently": "^8.2.2",
     "cross-env": "^7.0.3",
     "electron": "^27.0.3",
     "electron-builder": "^24.6.4",
+    "eslint-plugin-vue": "^9.18.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vue-tsc": "^1.8.5",
     "wait-on": "^7.1.0"
-  }
+  },
+  "repository": "https://github.com/xiaoye6688/eleTools.git",
+  "author": "小夜 <113846359+xiaoye8866@users.noreply.github.com>",
+  "license": "MIT"
 }

@@ -1,0 +1,31 @@
+{
+  ".gitignore": null,
+  "electron": {
+    "main.js": null,
+    "preload.js": null
+  },
+  "filesTree.txt": null,
+  "index.html": null,
+  "package.json": null,
+  "public": {
+    "vite.svg": null
+  },
+  "README.md": null,
+  "src": {
+    "App.vue": null,
+    "assets": {
+      "vue.svg": null
+    },
+    "components": {
+      "HelloWorld.vue": null
+    },
+    "main.ts": null,
+    "style.css": null,
+    "vite-env.d.ts": null
+  },
+  "test.js": null,
+  "tsconfig.json": null,
+  "tsconfig.node.json": null,
+  "vite.config.ts": null,
+  "yarn.lock": null
+}
