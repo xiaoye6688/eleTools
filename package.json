@@ -1,0 +1,48 @@
+{
+  "name": "eletools",
+  "private": true,
+  "version": "0.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "electron": "wait-on tcp:5173 && cross-env NODE_ENV=development electron .",
+    "electron:serve": "concurrently -k \"yarn dev\" \"yarn electron\"",
+    "electron:build": "vite build && electron-builder"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "build": {
+    "appId": "com.your-website.your-app",
+    "productName": "ElectronApp",
+    "copyright": "Copyright © 2021 <your-name>",
+    "mac": {
+      "category": "public.app-category.utilities"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets",
+      "output": "dist_electron"
+    }
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "electron": "^27.0.3",
+    "electron-builder": "^24.6.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5",
+    "wait-on": "^7.1.0"
+  }
+}
