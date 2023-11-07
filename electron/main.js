@@ -2,7 +2,7 @@
 
 // 控制应用生命周期和创建原生浏览器窗口的模组
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const { app, BrowserWindow, session } = require("electron");
+const { app, BrowserWindow } = require("electron");
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require("path");
 

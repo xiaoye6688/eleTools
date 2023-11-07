@@ -1,5 +1,5 @@
 {
-  "name": "eletools",
+  "name": "easytools",
   "private": true,
   "version": "0.0.0",
   "main": "electron/main.js",
@@ -21,7 +21,8 @@
   },
   "build": {
     "appId": "com.your-website.your-app",
-    "productName": "ElectronApp",
+    "productName": "Easy",
+    "icon": "public/easyLogo.ico",
     "copyright": "Copyright © 2021 <your-name>",
     "mac": {
       "category": "public.app-category.utilities",

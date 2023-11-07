@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
     <div class="appInfo">
-      <div><img src="public/easyLogo2.png" class="logo" alt="App logo" /></div>
+      <div><img src="/easyLogo2.png" class="logo" alt="App logo" /></div>
       <br />
       <div>0.0.0</div>
     </div>
@@ -79,6 +79,7 @@ export default {
   width: 200px;
   border-right: 1px solid rgb(64, 158, 255);
   padding-top: 100px;
+  text-align: center;
 }
 .funList .el-button {
   width: 80%;
