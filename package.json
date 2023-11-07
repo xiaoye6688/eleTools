@@ -16,7 +16,8 @@
     "element-plus": "^2.4.2",
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
   },
   "build": {
     "appId": "com.your-website.your-app",
