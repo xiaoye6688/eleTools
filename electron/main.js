@@ -2,7 +2,7 @@
 
 // 控制应用生命周期和创建原生浏览器窗口的模组
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const { app, BrowserWindow } = require("electron");
+const { app, BrowserWindow, session } = require("electron");
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require("path");
 
@@ -13,6 +13,8 @@ function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    // 打包时不显示菜单栏
+    autoHideMenuBar: true,
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
     },
