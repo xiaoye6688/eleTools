@@ -30,12 +30,12 @@ export default {
         path: "/",
       },
       {
-        name: "关于",
-        path: "/about",
-      },
-      {
         name: "视频",
         path: "/video",
+      },
+      {
+        name: "关于",
+        path: "/about",
       },
       // 其他按钮数据...
     ]);
