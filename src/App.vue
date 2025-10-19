@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
     <div class="appInfo">
-      <div><img src="/easyLogo2.png" class="logo" alt="App logo" /></div>
+      <div><img src="easyLogo2.png" class="logo" alt="App logo" /></div>
       <br />
       <div>0.0.0</div>
     </div>

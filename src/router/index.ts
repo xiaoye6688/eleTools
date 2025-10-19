@@ -15,7 +15,7 @@ const routes: Array<RouteRecordRaw> = [
     component: About, // 关于页面组件
   },
   {
-    path: "/Video",
+    path: "/video",
     component: video,
   },
 ];
