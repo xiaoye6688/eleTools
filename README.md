@@ -16,6 +16,13 @@
 - 一条命令同时启动 Vite 与 Electron（concurrently + wait-on）
 - electron-builder 打包配置完善，支持自定义图标与安装器行为
 
+## 现有功能（用户可见）
+
+- 布局：左侧固定功能栏 + 右侧内容区
+- 顶部应用信息：Logo + 版本号（0.0.0）
+- 路由导航：主页（/）、视频（/video）、关于（/about）
+- 使用 Element Plus 按钮作为导航入口
+
 ## 目录结构
 
 ```
